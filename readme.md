@@ -1,3 +1,5 @@
+<img src='/images/screenshots/sabor-design-system.jpg' style='display: block; margin: 0 auto 1rem; width: 100%;'>
+
 # Sabor Design System
 
 Design system for a Mexican restaurant's take-out ordering app.
