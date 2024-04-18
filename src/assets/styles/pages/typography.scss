@@ -5,10 +5,14 @@
   color: var(--color-foreground);
   display: flex;
   flex-direction: column;
-  gap: .75rem;
-  height: 8rem;
+  gap: .875rem;
+  height: 7rem;
   justify-content: center;
   width: 12rem;
+
+  .caption {
+    font-size: var(--font-size-small);
+  }
 
   .sample {
     font-size: var(--font-size-xxx-large);
