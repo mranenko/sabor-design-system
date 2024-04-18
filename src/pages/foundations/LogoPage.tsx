@@ -12,10 +12,11 @@ const LogoPage = () => {
         </p>
         
         <Card>
-          <h2 className='subtitle'>Mi Casa</h2>
-          <p>
-            TBD
-          </p>
+          <h2 className='subtitle'>Limón</h2>
+          <div className='tiles logos'>
+            <div className='tile logo'></div>
+            <div className='tile logo'></div>
+          </div>
         </Card>
       </section>
     </Page>

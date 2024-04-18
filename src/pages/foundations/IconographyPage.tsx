@@ -15,9 +15,13 @@ const IconographyPage = () => {
         
         <Card>
           <h2 className='subtitle'>Icons</h2>
-          <p>
-            TBD
-          </p>
+          <div className='tiles icons'>
+            <div className='tile icon'></div>
+            <div className='tile icon'></div>
+            <div className='tile icon'></div>
+            <div className='tile icon'></div>
+            <div className='tile icon'></div>
+          </div>
         </Card>
       </section>
     </Page>

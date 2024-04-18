@@ -45,10 +45,14 @@ const OverviewPage = () => {
               of warmth and trustworthiness. Together, they form a harmonious blend
               that stands the test of time while resonating with modern audiences.
             </p>
+            <div className='tiles fonts'>
+              <div className='tile font wide'></div>
+              <div className='tile font wide'></div>
+            </div>
           </Card>
         </Link>
 
-        <Link to='/foundations/typography'>
+        <Link to='/foundations/iconography'>
           <Card>
             <h2 className='subtitle'>Iconography</h2>
             <p>
@@ -57,6 +61,13 @@ const OverviewPage = () => {
               communicate with clarity and precision, guiding users intuitively
               through digital experiences.
             </p>
+            <div className='tiles icons'>
+              <div className='tile icon'></div>
+              <div className='tile icon'></div>
+              <div className='tile icon'></div>
+              <div className='tile icon'></div>
+              <div className='tile icon'></div>
+            </div>
           </Card>
         </Link>
 
@@ -67,6 +78,10 @@ const OverviewPage = () => {
               Our logos are the fiesta before the feast, embodying the lively
               spirit and authentic flavors of Mexican cuisine. ¡Buen provecho!
             </p>
+            <div className='tiles logos'>
+              <div className='tile logo'></div>
+              <div className='tile logo'></div>
+            </div>
           </Card>
         </Link>
       </section>

@@ -1,0 +1,15 @@
+.tile.font {
+  background: var(--color-background-dark);
+  border-radius: .25rem;
+  color: var(--color-foreground);
+  height: 6rem;
+  width: 6rem;
+  &.wide { width: 9.375rem; }
+}
+
+.tiles.fonts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: .75rem;
+}

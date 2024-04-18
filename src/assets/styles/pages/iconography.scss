@@ -1,0 +1,14 @@
+.tile.icon {
+  background: var(--color-background-dark);
+  border-radius: .25rem;
+  color: var(--color-foreground);
+  height: 4rem;
+  width: 4rem;
+}
+
+.tiles.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: .75rem;
+}

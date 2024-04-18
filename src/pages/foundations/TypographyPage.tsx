@@ -16,9 +16,10 @@ const TypographyPage = () => {
         
         <Card>
           <h2 className='subtitle'>Font Families</h2>
-          <p>
-            TBD
-          </p>
+          <div className='tiles fonts'>
+            <div className='tile font wide'></div>
+            <div className='tile font wide'></div>
+          </div>
         </Card>
       </section>
     </Page>
