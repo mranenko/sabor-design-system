@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+html {
+  font: normal 16px sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background: var(--color-primary-dark);
+  color: var(--color-foreground-light);
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font-family-heebo);
+  font-size: var(--font-size-regular);
+  font-weight: var(--font-weight-normal);
+  justify-content: start;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .title, .subtitle {
+  font-family: var(--font-family-playfair-display);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.25;
+}
+h1, h2, .title, .subtitle { font-weight: var(--font-weight-semi-bold); }
+h1, .title { font-size: var(--font-size-xxx-large); }
+h2, .subtitle { font-size: var(--font-size-xx-large); }
+h3 { font-size: var(--font-size-x-large); }
+h4, h5, h6 { font-size: var(--font-size-large); }

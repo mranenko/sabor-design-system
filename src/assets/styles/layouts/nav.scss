@@ -1,0 +1,17 @@
+.nav {
+  background: var(--color-primary);
+  color: var(--color-foreground-light);
+  bottom: 0;
+  height: 100vh;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  width: 16rem;
+}
+
+.nav .logo {
+  display: block;
+  height: 7rem;
+  margin: 0 auto .5rem;
+  width: auto;
+}

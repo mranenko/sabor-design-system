@@ -1,0 +1,10 @@
+.page {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  display: flex;
+  flex-direction: row;
+  max-width: 90rem;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+}

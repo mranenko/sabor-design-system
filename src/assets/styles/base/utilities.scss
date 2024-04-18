@@ -1,0 +1,19 @@
+.flex { display: flex; }
+.flex-column { display: flex; flex-direction: column; }
+.flex-row { display: flex; flex-direction: row; }
+
+.gap-05 { gap: .5rem; }
+.gap-1 { gap: 1rem; }
+.gap-125 { gap: 1.25rem; }
+.gap-15 { gap: 1.5rem; }
+
+.m-05 { margin: .5rem; }
+.mx-05 { margin-left: .5rem; margin-right: .5rem; }
+.my-05 { margin-bottom: .5rem; margin-top: .5rem; }
+.m-1 { margin: 1rem; }
+.mx-1 { margin-left: 1rem; margin-right: 1rem; }
+.my-1 { margin-bottom: 1rem; margin-top: 1rem; }
+.mb-05 { margin-bottom: .5rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mt-05 { margin-top: .5rem; }
+.mt-1 { margin-top: 1rem; }

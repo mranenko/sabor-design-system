@@ -1,0 +1,89 @@
+@use '../base/colors' as *;
+
+@mixin swatch($background, $background-value: $background) {
+  @if (lightness($background-value) > 80) { border: 1px solid color(border); }
+  background: $background-value;
+  color: contrast($background-value);
+  font-size: var(--font-size-small);
+  position: relative;
+  word-spacing: 100vw; /* add line break after every word */
+
+  &,
+  &::after {
+    align-items: center;
+    border-radius: .5rem;
+    display: inline-grid;
+    height: 6rem;
+    justify-content: center;
+    width: 6rem;
+  }
+
+  &.wide,
+  &.wide::after {
+    width: 9.375rem;
+  }
+
+  &::after {
+    content: '#{$background} #{$background-value}';
+    left: 0;
+    overflow: visible;
+    padding: 0 1rem;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+$swatches-main: (
+  cocoa: color(cocoa),
+  lime: color(lime),
+);
+
+$swatches-cocoa: (
+  100: color(cocoa, 100),
+  200: color(cocoa, 200),
+  300: color(cocoa, 300),
+  400: color(cocoa, 400),
+  500: color(cocoa, 500),
+  600: color(cocoa, 600),
+  700: color(cocoa, 700),
+  800: color(cocoa, 800),
+  900: color(cocoa, 900),
+);
+
+$swatches-lime: (
+  100: color(lime, 100),
+  200: color(lime, 200),
+  300: color(lime, 300),
+  400: color(lime, 400),
+  500: color(lime, 500),
+  600: color(lime, 600),
+  700: color(lime, 700),
+  800: color(lime, 800),
+  900: color(lime, 900),
+);
+
+@each $name, $color in $swatches-main {
+  .swatch.#{'' + $name} {
+    @include swatch($name, $color);
+  }
+}
+
+@each $name, $color in $swatches-cocoa {
+  .swatch.#{'cocoa-' + $name} {
+    @include swatch($name, $color);
+  }
+}
+
+@each $name, $color in $swatches-lime {
+  .swatch.#{'lime-' + $name} {
+    @include swatch($name, $color);
+  }
+}
+
+.swatches {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
