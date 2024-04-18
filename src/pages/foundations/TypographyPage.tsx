@@ -17,8 +17,14 @@ const TypographyPage = () => {
         <Card>
           <h2 className='subtitle'>Font Families</h2>
           <div className='tiles fonts'>
-            <div className='tile font wide'></div>
-            <div className='tile font wide'></div>
+            <div className='tile font wide'>
+              <span className='sample playfair-display'>AaBbCc</span>
+              <span className='caption'>Playfair Display</span>
+            </div>
+            <div className='tile font wide'>
+              <span className='sample heebo'>AaBbCc</span>
+              <span className='caption'>Heebo</span>
+            </div>
           </div>
         </Card>
       </section>

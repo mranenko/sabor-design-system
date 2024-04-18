@@ -1,10 +1,28 @@
 .tile.font {
+  align-items: center;
   background: var(--color-background-dark);
   border-radius: .25rem;
   color: var(--color-foreground);
-  height: 6rem;
-  width: 6rem;
-  &.wide { width: 9.375rem; }
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  height: 8rem;
+  justify-content: center;
+  width: 12rem;
+
+  .sample {
+    font-size: var(--font-size-xxx-large);
+    line-height: 1;
+
+    &.heebo {
+      font-family: var(--font-family-heebo);
+      margin: 0 0 -.3125rem;
+    }
+    
+    &.playfair-display {
+      font-family: var(--font-family-playfair-display);
+    }
+  }
 }
 
 .tiles.fonts {
