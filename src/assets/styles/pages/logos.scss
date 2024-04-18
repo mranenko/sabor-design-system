@@ -1,10 +1,19 @@
 .tile.logo {
+  align-items: center;
   background: var(--color-background-dark);
   border-radius: .25rem;
   color: var(--color-foreground);
+  display: flex;
+  flex-direction: row;
   height: 6rem;
+  justify-content: center;
   width: 6rem;
-  &.wide { width: 9.375rem; }
+
+  .logo {
+    display: block;
+    height: 4rem;
+    width: auto;
+  }
 }
 
 .tiles.logos {

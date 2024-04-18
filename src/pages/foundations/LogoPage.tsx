@@ -14,8 +14,13 @@ const LogoPage = () => {
         <Card>
           <h2 className='subtitle'>Limón</h2>
           <div className='tiles logos'>
-            <div className='tile logo'></div>
-            <div className='tile logo'></div>
+            <div className='tile logo'>
+              <img
+                alt='Sabor Design System'
+                className='logo'
+                src='/images/logos/sabor.svg'
+              />
+            </div>
           </div>
         </Card>
       </section>
