@@ -1,3 +1,12 @@
+import {
+  ArrowLeft,
+  ArrowRight,
+  Basket,
+  CaretLeft,
+  CaretRight,
+  List,
+  User,
+} from '@phosphor-icons/react'
 import { Link } from 'react-router-dom'
 
 import { Card } from '../components'
@@ -62,11 +71,34 @@ const OverviewPage = () => {
               through digital experiences.
             </p>
             <div className='tiles icons'>
-              <div className='tile icon'></div>
-              <div className='tile icon'></div>
-              <div className='tile icon'></div>
-              <div className='tile icon'></div>
-              <div className='tile icon'></div>
+              <div className='tile icon'>
+                <i className='icon'><ArrowLeft /></i>
+                <span className='caption'>ArrowLeft</span>
+              </div>
+              <div className='tile icon'>
+                <i className='icon'><ArrowRight /></i>
+                <span className='caption'>ArrowRight</span>
+              </div>
+              <div className='tile icon'>
+                <i className='icon'><Basket /></i>
+                <span className='caption'>Basket</span>
+              </div>
+              <div className='tile icon'>
+                <i className='icon'><CaretLeft /></i>
+                <span className='caption'>CaretLeft</span>
+              </div>
+              <div className='tile icon'>
+                <i className='icon'><CaretRight /></i>
+                <span className='caption'>CaretRight</span>
+              </div>
+              <div className='tile icon'>
+                <i className='icon'><List /></i>
+                <span className='caption'>List</span>
+              </div>
+              <div className='tile icon'>
+                <i className='icon'><User /></i>
+                <span className='caption'>User</span>
+              </div>
             </div>
           </Card>
         </Link>

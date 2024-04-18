@@ -1,9 +1,22 @@
 .tile.icon {
+  align-items: center;
   background: var(--color-background-dark);
   border-radius: .25rem;
   color: var(--color-foreground);
-  height: 4rem;
-  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  height: 6rem;
+  justify-content: center;
+  width: 6rem;
+
+  .caption {
+    font-size: var(--font-size-small);
+  }
+
+  .icon {
+    color: var(--color-primary);
+    font-size: var(--font-size-xxx-large);
+  }
 }
 
 .tiles.icons {
