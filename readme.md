@@ -7,7 +7,7 @@ Design system for a Mexican restaurant's take-out ordering app.
 
 ## Demo
 
-[mi-casa-app.netlify.app](https://mi-casa-app.netlify.app)
+[sabor-design-system.netlify.app](https://sabor-design-system.netlify.app)
 
 ---
 
