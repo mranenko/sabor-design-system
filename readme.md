@@ -2,7 +2,7 @@
 
 # Sabor Design System
 
-Design system for a Mexican restaurant's take-out ordering app.
+Inspired by the vibrant colors, flavors, and culture of Mexico, Sabor Design System combines authenticity with intuitive functionality. From visually captivating interfaces to seamless navigation, every aspect is meticulously designed to enhance user engagement and satisfaction.
 
 ---
 
