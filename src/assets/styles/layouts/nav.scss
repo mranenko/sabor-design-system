@@ -1,12 +1,21 @@
+@use '../base/breakpoints' as *;
+
 .nav {
   background: var(--color-primary);
   color: var(--color-foreground-light);
   bottom: 0;
   height: 100vh;
-  padding: 2rem;
+  left: -18rem;
+  padding: 4rem 2rem 2rem;
   position: fixed;
   top: 0;
+  transition: left .5s;
   width: 16rem;
+  z-index: var(--z-nav);
+}
+
+.nav.active {
+   left: 0; 
 }
 
 .nav .logo {
@@ -14,4 +23,36 @@
   height: auto;
   margin: 0 auto .5rem;
   width: 10rem;
+}
+
+.nav-toggle {
+  background: none;
+  border: 0;
+  color: var(--color-foreground);
+  cursor: pointer;
+  font-size: 2.5rem;
+  height: 2rem;
+  left: 2rem;
+  position: fixed;
+  top: 1rem;
+  transition: background .5s;
+  width: 2rem;
+  z-index: var(--z-nav-toggle);
+}
+
+.nav-toggle.active {
+  color: var(--color-foreground-light);
+}
+
+@include respond-to(small) {
+  .nav,
+  .nav.active {
+    left: 0;
+    padding: 2rem;
+  }
+
+  .nav-toggle,
+  .nav-toggle-active {
+    display: none;
+  }
 }
