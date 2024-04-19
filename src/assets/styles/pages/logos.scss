@@ -7,12 +7,13 @@
   flex-direction: row;
   height: 6rem;
   justify-content: center;
-  width: 6rem;
+  width: 16rem;
+  &.primary { background: var(--color-primary); }
 
   .logo {
     display: block;
-    height: 4rem;
-    width: auto;
+    height: auto;
+    width: 12rem;
   }
 }
 

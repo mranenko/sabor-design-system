@@ -116,12 +116,22 @@ const OverviewPage = () => {
               Our logos are the fiesta before the feast, embodying the lively
               spirit and authentic flavors of Mexican cuisine. ¡Buen provecho!
             </p>
-            <div className='tile logo'>
-              <img
-                alt='Sabor Design System'
-                className='logo'
-                src='/images/logos/sabor.svg'
-              />
+            <div className='tiles logos'>
+              <div className='tile logo primary'>
+                <img
+                  alt='Sabor Design System'
+                  className='logo'
+                  src='/images/logos/sabor-logo-light.svg'
+                />
+              </div>
+
+              <div className='tile logo'>
+                <img
+                  alt='Sabor Design System'
+                  className='logo'
+                  src='/images/logos/sabor-logo-primary.svg'
+                />
+              </div>
             </div>
           </Card>
         </Link>

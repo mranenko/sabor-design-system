@@ -11,12 +11,12 @@ const Nav = ({ className = '' }: NavProps) => {
         <img
           alt='Sabor Design System'
           className='logo'
-          src='/images/logos/sabor.svg'
+          src='/images/logos/sabor-logo-light.svg'
         />
       </NavLink>
 
       <div className='flex-column gap-05'>
-        <h3 className='my-05'>Sabor Design System</h3>
+        <h3 className='my-05'>Design System</h3>
         <NavLink to='/'>Overview</NavLink>
       </div>
 
