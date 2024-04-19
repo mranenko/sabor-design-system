@@ -12,13 +12,21 @@ const LogoPage = () => {
         </p>
         
         <Card>
-          <h2 className='subtitle'>Limón</h2>
+          <h2 className='subtitle'>Sabor</h2>
           <div className='tiles logos'>
+            <div className='tile logo primary'>
+              <img
+                alt='Sabor Design System'
+                className='logo'
+                src='/images/logos/sabor-logo-light.svg'
+              />
+            </div>
+
             <div className='tile logo'>
               <img
                 alt='Sabor Design System'
                 className='logo'
-                src='/images/logos/sabor.svg'
+                src='/images/logos/sabor-logo-primary.svg'
               />
             </div>
           </div>
