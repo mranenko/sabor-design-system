@@ -24,9 +24,9 @@ const IconographyPage = () => {
         <h1 className='title'>Iconography</h1>
         <p>
           Simplicity meets sophistication in this collection of clean,
-          modern icons. Embodying the essence of minimalism, our icons
-          communicate with clarity and precision, guiding users intuitively
-          through digital experiences.
+          modern icons from Phosphor Icons. Embodying the essence of
+          minimalism, our icons communicate with clarity and precision,
+          guiding users intuitively through digital experiences.
         </p>
         
         <Card>
