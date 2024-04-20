@@ -25,7 +25,6 @@ const OverviewPage = () => {
          </p>
 
         <h2 className='subtitle'>Foundations</h2>
-
         <Link to='/foundations/color'>
           <Card>
             <h2 className='subtitle'>Color</h2>

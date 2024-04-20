@@ -34,48 +34,19 @@
   }
 }
 
-$swatches-main: (
-  cocoa: color(cocoa),
-  lime: color(lime),
-);
-
-$swatches-cocoa: (
-  100: color(cocoa, 100),
-  200: color(cocoa, 200),
-  300: color(cocoa, 300),
-  400: color(cocoa, 400),
-  500: color(cocoa, 500),
-  600: color(cocoa, 600),
-  700: color(cocoa, 700),
-  800: color(cocoa, 800),
-  900: color(cocoa, 900),
-);
-
-$swatches-lime: (
-  100: color(lime, 100),
-  200: color(lime, 200),
-  300: color(lime, 300),
-  400: color(lime, 400),
-  500: color(lime, 500),
-  600: color(lime, 600),
-  700: color(lime, 700),
-  800: color(lime, 800),
-  900: color(lime, 900),
-);
-
-@each $name, $color in $swatches-main {
+@each $name, $color in colors(main) {
   .swatch.#{'' + $name} {
     @include swatch($name, $color);
   }
 }
 
-@each $name, $color in $swatches-cocoa {
+@each $name, $color in colors(cocoa) {
   .swatch.#{'cocoa-' + $name} {
     @include swatch($name, $color);
   }
 }
 
-@each $name, $color in $swatches-lime {
+@each $name, $color in colors(lime) {
   .swatch.#{'lime-' + $name} {
     @include swatch($name, $color);
   }

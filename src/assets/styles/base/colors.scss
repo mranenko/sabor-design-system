@@ -26,7 +26,13 @@ $color-cocoa: #5e4b55;
 $color-lime: #387819;
 
 $colors: (
-  cocoa: (100: tint($color-cocoa, 99%),
+  main: (
+    cocoa: $color-cocoa,
+    lime: $color-lime,
+  ),
+
+  cocoa: (
+    100: tint($color-cocoa, 99%),
     200: tint($color-cocoa, 91%),
     300: tint($color-cocoa, 82%),
     400: tint($color-cocoa, 72%),
@@ -37,7 +43,8 @@ $colors: (
     900: shade($color-cocoa, 9%),
   ),
 
-  lime: (100: tint($color-lime, 99%),
+  lime: (
+    100: tint($color-lime, 99%),
     200: tint($color-lime, 91%),
     300: tint($color-lime, 82%),
     400: tint($color-lime, 72%),
@@ -66,6 +73,10 @@ $colors: (
   }
 
   @return $value;
+}
+
+@function colors($key) {
+  @return map-get($colors, $key);
 }
 
 /*
