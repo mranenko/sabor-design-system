@@ -1,3 +1,7 @@
+@use '../base/colors' as *;
+
+.color-subtle { color: color(foreground, subtle); }
+
 .flex { display: flex; }
 .flex-column { display: flex; flex-direction: column; }
 .flex-row { display: flex; flex-direction: row; }
