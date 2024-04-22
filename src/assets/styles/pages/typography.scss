@@ -11,30 +11,21 @@
   gap: .875rem;
   height: 5rem;
   justify-content: center;
-  width: 9rem;
+  width: 100%;
 
-  &.large {
+  &.display {
     height: 7rem;
-    width: 12rem;
+    width: 100%;
   }
 
-  .caption {
-    font-size: var(--font-size-small);
-  }
+  &.text { font-size: var(--font-size-regular); }
+  &.text-large { font-size: var(--font-size-large); }
+  &.text-small { font-size: var(--font-size-small); }
 
-  .sample {
-    font-size: var(--font-size-xxx-large);
-    line-height: 1;
-
-    &.heebo {
-      font-family: var(--font-family-heebo);
-      margin: 0 0 -.3125rem;
-    }
-    
-    &.playfair-display {
-      font-family: var(--font-family-playfair-display);
-    }
-  }
+  .caption { font-size: var(--font-size-small); }
+  .sample { font-size: var(--font-size-xxx-large); line-height: 1; }
+  .heebo { font-family: var(--font-family-heebo); margin: 0 0 -.3125rem; }
+  .playfair-display { font-family: var(--font-family-playfair-display); }
 }
 
 .tiles.fonts {
@@ -61,7 +52,7 @@
     border-top: 1px solid color(border);
     display: grid;
     grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
+    grid-auto-flow: row;
     justify-content: space-between;
     gap: 1rem;
     margin: -1px 0 0;
@@ -69,5 +60,13 @@
 }
 
 @include respond-to(small) {
-  
+  .tile.font {
+    &.display { width: 12rem; }
+  }
+
+  .table.fonts {
+    tr {
+      grid-auto-flow: column;
+    }
+  }
 }

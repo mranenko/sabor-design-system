@@ -17,11 +17,11 @@ const TypographyPage = () => {
         <Card>
           <h2 className='subtitle'>Font Families</h2>
           <div className='tiles fonts'>
-            <div className='tile font large'>
+            <div className='tile font display'>
               <span className='sample heebo'>AaBbCc</span>
               <span className='caption'>Heebo</span>
             </div>
-            <div className='tile font large'>
+            <div className='tile font display'>
               <span className='sample playfair-display'>AaBbCc</span>
               <span className='caption'>Playfair Display</span>
             </div>
@@ -33,7 +33,99 @@ const TypographyPage = () => {
           <table className='table fonts'>
             <tr>
               <td>
-                <div className='tile font small'>Text</div>
+                <div className='tile font'>
+                  <h1>Title 1</h1>
+                </div>
+              </td>
+              <td className='strong'>title-1</td>
+              <td className='color-subtle'>
+                font-family-playfair-display<br />
+                font-weight-semi-bold<br />
+                font-size-xxx-large<br />
+                leading-tight<br />
+                tracking-normal
+              </td>
+              <td className='color-subtle'>
+                'Playfair Display', serif<br />
+                600 / semibold<br />
+                2rem / 32px<br />
+                1.25 / 125%<br />
+                0 / normal
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className='tile font'>
+                  <h2>Title 2</h2>
+                </div>
+              </td>
+              <td className='strong'>title-2</td>
+              <td className='color-subtle'>
+                font-family-playfair-display<br />
+                font-weight-semi-bold<br />
+                font-size-xx-large<br />
+                leading-tight<br />
+                tracking-wide
+              </td>
+              <td className='color-subtle'>
+                'Playfair Display', serif<br />
+                600 / semibold<br />
+                1.625rem / 26px<br />
+                1.25 / 125%<br />
+                .5px
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className='tile font title-3'>
+                  <h3>Title 3</h3>
+                </div>
+              </td>
+              <td className='strong'>title-3</td>
+              <td className='color-subtle'>
+                font-family-playfair-display<br />
+                font-weight-semi-bold<br />
+                font-size-large<br />
+                leading-tighy<br />
+                tracking-wide
+              </td>
+              <td className='color-subtle'>
+                'Playfair Display', serif<br />
+                600 / semibold<br />
+                1.25rem / 20px<br />
+                1.25 / 125%<br />
+                .5px
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className='tile font title-4'>
+                  <h4>Title 4</h4>
+                </div>
+              </td>
+              <td className='strong'>title-4</td>
+              <td className='color-subtle'>
+                font-family-playfair-display<br />
+                font-weight-semi-bold<br />
+                font-size-regular<br />
+                leading-tight<br />
+                tracking-wide
+              </td>
+              <td className='color-subtle'>
+                'Playfair Display', serif<br />
+                600 / semibold<br />
+                1rem / 16px<br />
+                1.25 / 125%<br />
+                .5px
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className='tile font text-large'>Large text</div>
               </td>
               <td className='strong'>text</td>
               <td className='color-subtle'>
@@ -54,7 +146,7 @@ const TypographyPage = () => {
 
             <tr>
               <td>
-                <div className='tile font small strong'>Strong text</div>
+                <div className='tile font text-large strong'>Strong large text</div>
               </td>
               <td className='strong'>strong-text</td>
               <td className='color-subtle'>
@@ -75,7 +167,49 @@ const TypographyPage = () => {
 
             <tr>
               <td>
-                <div className='tile font small'>Small text</div>
+                <div className='tile font text'>Text</div>
+              </td>
+              <td className='strong'>text</td>
+              <td className='color-subtle'>
+                font-family-heebo<br />
+                font-weight-semi-bold<br />
+                font-size-regular<br />
+                leading-normal<br />
+                tracking-wide
+              </td>
+              <td className='color-subtle'>
+                'Heebo', sans-serif<br />
+                400 / normal<br />
+                .875rem / 14px<br />
+                1.5 / 150%<br />
+                .5px
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className='tile font text strong'>Strong text</div>
+              </td>
+              <td className='strong'>strong-text</td>
+              <td className='color-subtle'>
+                font-family-heebo<br />
+                font-weight-semi-bold<br />
+                font-size-regular<br />
+                leading-normal<br />
+                tracking-wide
+              </td>
+              <td className='color-subtle'>
+                'Heebo', sans-serif<br />
+                600 / semibold<br />
+                .875rem / 14px<br />
+                1.5 / 150%<br />
+                .5px
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div className='tile font text-small'>Small text</div>
               </td>
               <td className='strong'>small-text</td>
               <td className='color-subtle'>
@@ -96,7 +230,7 @@ const TypographyPage = () => {
             
             <tr>
               <td>
-                <div className='tile font small strong'>Small strong text</div>
+                <div className='tile font text-small strong'>Small strong text</div>
               </td>
               <td className='strong'>small-strong-text</td>
               <td className='color-subtle'>

@@ -54,11 +54,11 @@ const OverviewPage = () => {
               that stands the test of time while resonating with modern audiences.
             </p>
             <div className='tiles fonts'>
-              <div className='tile font wide'>
+              <div className='tile font display'>
                 <span className='sample playfair-display'>AaBbCc</span>
                 <span className='caption'>Playfair Display</span>
               </div>
-              <div className='tile font wide'>
+              <div className='tile font display'>
                 <span className='sample heebo'>AaBbCc</span>
                 <span className='caption'>Heebo</span>
               </div>
