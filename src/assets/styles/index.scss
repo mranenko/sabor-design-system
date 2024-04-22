@@ -9,7 +9,9 @@
 @use 'layouts/main';
 @use 'layouts/nav';
 @use 'layouts/page';
-@use 'pages/colors' as colorsPage;
+@use 'pages/button' as pageButton;
+@use 'pages/card' as pageCard;
+@use 'pages/colors' as pageColors;
 @use 'pages/iconography';
 @use 'pages/logos';
 @use 'pages/typography';
