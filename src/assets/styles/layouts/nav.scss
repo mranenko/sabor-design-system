@@ -6,7 +6,7 @@
   bottom: 0;
   height: 100vh;
   left: -18rem;
-  padding: 4rem 2rem 2rem;
+  padding: 6rem 2rem 2rem;
   position: fixed;
   top: 0;
   transition: left .5s;
@@ -26,22 +26,24 @@
 }
 
 .nav-toggle {
-  background: none;
+  background: var(--color-primary);
   border: 0;
-  color: var(--color-foreground);
+  border-radius: 50%;
+  color: var(--color-foreground-light);
   cursor: pointer;
   font-size: 2.5rem;
-  height: 2rem;
+  height: 3rem;
   left: 2rem;
   position: fixed;
-  top: 1rem;
+  top: 1.5rem;
   transition: background .5s;
-  width: 2rem;
+  width: 3rem;
   z-index: var(--z-nav-toggle);
 }
 
 .nav-toggle.active {
-  color: var(--color-foreground-light);
+  background: var(--color-background-light);
+  color: var(--color-primary);
 }
 
 @include respond-to(small) {
