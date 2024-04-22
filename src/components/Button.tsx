@@ -10,14 +10,14 @@ const Button = ({
   as = 'button',
   children,
   className = '',
-  variant = 'primary',
+  variant = 'primary solid',
   ...props
 }: ButtonProps) => {
   const Component = as
   
   return (
     <Component
-      className={`button ${variant} ${className}`}
+      className={`button ${className} ${variant}`}
       {...props}
     >
       {children}
