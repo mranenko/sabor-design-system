@@ -23,7 +23,9 @@ npm install
 npm start
 ```
 
-Note: This project was created with node 20.11.0 and npm 10.4.0.
+Open the browser at [localhost:5301](http://localhost:5301)
+
+Note: This project was developed using node 20.12.2 and npm 10.5.0.
 
 ---
 
