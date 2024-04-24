@@ -1,0 +1,21 @@
+@use '../base/colors' as *;
+
+footer,
+.footer {
+  align-items: center;
+  background: var(--color-background-light);
+  box-shadow: 0 0 .75rem rgba(color(cocoa, 900), .3);
+  color: var(--color-foreground);
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 7rem;
+  justify-content: space-between;
+  max-width: 60rem;
+  min-width: 20rem;
+  padding: 2rem 1rem;
+  position: fixed;
+  width: 100%;
+  &.end { justify-content: end; }
+  &.start { justify-content: start; }
+}

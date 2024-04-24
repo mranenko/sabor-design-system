@@ -1,5 +1,12 @@
-import { Card } from '../../components'
-import { Page } from '../../layouts'
+import {
+  Basket,
+} from '@phosphor-icons/react'
+
+import { Button } from '../../components'
+import {
+  Header,
+  Page,
+} from '../../layouts'
 
 const HeaderPage = () => {
   return (
@@ -13,12 +20,12 @@ const HeaderPage = () => {
           flavorful journey through our offerings.
         </p>
 
-        <Card>
-          <h2 className='subtitle'>Variants</h2>
-          <p>
-            TBD
-          </p>
-        </Card>
+        <Header className='relative'>
+          <span>Header</span>
+          <Button as='a' href='/review' variant='icon'>
+            <Basket />
+          </Button>
+        </Header>
       </section>
     </Page>
   )

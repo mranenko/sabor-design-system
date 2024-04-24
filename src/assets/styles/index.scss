@@ -9,6 +9,8 @@
 @use 'components/common/card';
 @use 'components/common/input';
 
+@use 'layouts/header';
+@use 'layouts/footer';
 @use 'layouts/main';
 @use 'layouts/nav';
 @use 'layouts/page';

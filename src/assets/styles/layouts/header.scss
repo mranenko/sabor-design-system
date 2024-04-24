@@ -1,0 +1,18 @@
+header,
+.header {
+  align-items: center;
+  background: var(--color-primary);
+  color: var(--color-foreground-light);
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 7rem;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 60rem;
+  min-width: 20rem;
+  padding: 2rem 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
