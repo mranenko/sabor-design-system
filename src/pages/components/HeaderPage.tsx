@@ -7,7 +7,10 @@ const HeaderPage = () => {
       <section className='flex-column gap-1'>
         <h1 className='title'>Header</h1>
         <p>
-          TBD
+          Featuring our iconic logo, our header sets the stage for an immersive dining experience.
+          Keep track of your feast with real-time updates on your basket's contents and as estimate
+          on your order preparation time. With its intuitive layout, our header will guide you on a
+          flavorful journey through our offerings.
         </p>
 
         <Card>

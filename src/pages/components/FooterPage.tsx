@@ -7,7 +7,8 @@ const FooterPage = () => {
       <section className='flex-column gap-1'>
         <h1 className='title'>Footer</h1>
         <p>
-          TBD
+          With its vibrant hues and user-friendly interface, our footer component ensures a
+          delightful experience from start to finish, guiding users on a culinary adventure.
         </p>
 
         <Card>

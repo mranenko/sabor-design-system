@@ -23,7 +23,7 @@ npm install
 npm start
 ```
 
-Open the browser at [localhost:5301](http://localhost:5301)
+Open your browser at [localhost:5301](http://localhost:5301)
 
 Note: This project was developed using node 20.12.2 and npm 10.5.0.
 
