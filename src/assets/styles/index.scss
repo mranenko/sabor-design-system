@@ -4,12 +4,15 @@
 @use 'base/global';
 @use 'base/utilities';
 @use 'base/z-indices';
-@use 'components/button';
-@use 'components/card';
-@use 'components/input';
+
+@use 'components/common/button';
+@use 'components/common/card';
+@use 'components/common/input';
+
 @use 'layouts/main';
 @use 'layouts/nav';
 @use 'layouts/page';
+
 @use 'pages/button' as pageButton;
 @use 'pages/card' as pageCard;
 @use 'pages/colors' as pageColors;
