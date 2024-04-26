@@ -27,7 +27,7 @@ const Nav = ({ className = '' }: NavProps) => {
           <img
             alt='Sabor Design System'
             className='logo'
-            src='/images/logos/sabor-logo-light.svg'
+            src='/assets/images/logos/sabor-logo-light.svg'
           />
         </NavLink>
 

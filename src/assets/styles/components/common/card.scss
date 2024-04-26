@@ -1,11 +1,26 @@
-.card {
+@use '../../base/colors' as *;
+
+.card,
+.card.light {
   background: var(--color-background-light);
   border-radius: .5rem;
   color: var(--color-foreground);
   display: flex;
   flex-direction: column;
+  font: inherit;
   gap: .75rem;
   padding: 1.5rem 1rem;
+}
+
+.card.dark {
+  background: var(--color-background-dark);
+  color: var(--color-foreground);
+}
+
+.card.ghost {
+  background: rgba(color(cocoa), .5);
+  backdrop-filter: blur(.5rem);
+  color: var(--color-foreground-light);
 }
 
 .card.primary {

@@ -1,4 +1,4 @@
-<img src='src/assets/images/screenshots/sabor-design-system.jpg' style='display: block; margin: 0 auto 1rem; max-width: 100%;'>
+<img src='/assets/images/screenshots/sabor-design-system.jpg' style='display: block; margin: 0 auto 1rem; max-width: 100%;'>
 
 # Sabor Design System
 

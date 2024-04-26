@@ -120,7 +120,7 @@ const OverviewPage = () => {
                 <img
                   alt='Sabor Design System'
                   className='logo'
-                  src='/images/logos/sabor-logo-light.svg'
+                  src='/assets/logos/sabor-logo-light.svg'
                 />
               </div>
 
@@ -128,7 +128,7 @@ const OverviewPage = () => {
                 <img
                   alt='Sabor Design System'
                   className='logo'
-                  src='/images/logos/sabor-logo-primary.svg'
+                  src='/assets/images/logos/sabor-logo-primary.svg'
                 />
               </div>
             </div>

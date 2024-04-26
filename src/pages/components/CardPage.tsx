@@ -18,7 +18,7 @@ const CardPage = () => {
           <h2 className='subtitle mb-1'>Variants</h2>
           <div className='cards'>
             <Card>
-              <h4>Default Card</h4>
+              <h4>Light Card (Default)</h4>
               <p>
                 Our digital nomad development lifecycle enables company-wide,
                 immersive enterprises. Key players will take ownership of their
@@ -26,6 +26,18 @@ const CardPage = () => {
                 In the product space, industry is globally strategizing its
                 proactive knowledge transfers. Our capability development
                 lifecycle enables holistic, value-added paradigm shifts.
+              </p>
+            </Card>
+
+            <Card variant='dark'>
+              <h4>Dark Card</h4>
+              <p>
+                Iteratively touching base about incentivizing stacks will make us leaders in the
+                best-in-class stakeholder industry. We use our cloud native bandwidths to
+                effectively manage our low hanging fruit expectations. Our business revolutionizes
+                growth hackers to intelligently and virtually productize our mobile team player.
+                You need to globally synergise your deliverables to increase your diversity
+                velocity.
               </p>
             </Card>
 
@@ -42,6 +54,21 @@ const CardPage = () => {
             </Card>
           </div>
         </div>
+
+        <section className='section vegetables-on-table my-1'>
+          <Card variant='ghost'>
+            <h4>Ghost Card</h4>
+            <p>
+              Powder sweet donut gummi bears gingerbread biscuit cotton candy cupcake ice cream.
+              Fruitcake cookie powder brownie sweet candy gummies bear claw cotton candy. Lollipop
+              brownie cookie tiramisu macaroon cheesecake gingerbread icing powder. Powder sesame
+              snaps topping tart candy cookie marshmallow chocolate cake. Donut soufflé brownie
+              muffin sweet sweet roll macaroon powder lollipop. Croissant caramels sesame snaps
+              carrot cake cotton candy tart. Danish gingerbread sesame snaps bonbon bear claw sweet
+              tart sesame snaps wafer. Donut icing oat cake bonbon sweet cotton candy.
+            </p>
+          </Card>
+        </section>
       </section>
     </Page>
   )

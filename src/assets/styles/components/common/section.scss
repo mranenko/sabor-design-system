@@ -1,0 +1,12 @@
+.section {
+  margin: 0 -2rem;
+  padding: 1.5rem 2rem;
+}
+
+.section.vegetables-on-table {
+  background-image: url('/assets/images/backgrounds/vegetable-market.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-foreground-light);
+}
