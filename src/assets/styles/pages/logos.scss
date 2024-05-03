@@ -1,4 +1,5 @@
-.tile.logo {
+.tile.logo,
+.tile.logomark {
   align-items: center;
   background: var(--color-background-dark);
   border-radius: .25rem;
@@ -7,14 +8,23 @@
   flex-direction: row;
   height: 6rem;
   justify-content: center;
-  width: 16rem;
   &.primary { background: var(--color-primary); }
-
-  .logo {
+  
+  .logo,
+  .logomark {
     display: block;
     height: auto;
-    width: 12rem;
   }
+}
+
+.tile.logo {
+  width: 16rem;
+  .logo { width: 12rem; }
+}
+
+.tile.logomark {
+  width: 6rem;
+  .logomark { width: 4rem; }
 }
 
 .tiles.logos {

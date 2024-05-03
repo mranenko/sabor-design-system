@@ -16,7 +16,7 @@ const LogoPage = () => {
           <div className='tiles logos'>
             <div className='tile logo primary'>
               <img
-                alt='Sabor Design System'
+                alt='Sabor Design System Logo'
                 className='logo'
                 src='/assets/images/logos/sabor-logo-light.svg'
               />
@@ -24,9 +24,25 @@ const LogoPage = () => {
 
             <div className='tile logo'>
               <img
-                alt='Sabor Design System'
+                alt='Sabor Design System Logo'
                 className='logo'
                 src='/assets/images/logos/sabor-logo-primary.svg'
+              />
+            </div>
+
+            <div className='tile logomark primary'>
+              <img
+                alt='Sabor Design System Logomark'
+                className='logomark'
+                src='/assets/images/logos/sabor-logomark-light.svg'
+              />
+            </div>
+
+            <div className='tile logomark'>
+              <img
+                alt='Sabor Design System Logomark'
+                className='logomark'
+                src='/assets/images/logos/sabor-logomark-primary.svg'
               />
             </div>
           </div>
