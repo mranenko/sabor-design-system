@@ -1,3 +1,4 @@
+@use '../base/breakpoints' as *;
 @use '../base/colors' as *;
 
 @mixin swatch($background, $background-value: $background) {
@@ -13,14 +14,14 @@
     align-items: center;
     border-radius: .25rem;
     display: inline-grid;
-    height: 6rem;
+    height: 5.25rem;
     justify-content: center;
-    width: 6rem;
+    width: 5.25rem;
   }
 
   &.wide,
   &.wide::after {
-    width: 9.375rem;
+    width: 8.25rem;
   }
 
   &::after {
@@ -57,4 +58,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: .75rem;
+}
+
+@include respond-to(small) {
+  .swatch {
+    &,
+    &::after {
+      height: 6rem;
+      width: 6rem;
+    }
+
+    &.wide,
+    &.wide::after {
+      width: 9.375rem;
+    }
+  }
 }
