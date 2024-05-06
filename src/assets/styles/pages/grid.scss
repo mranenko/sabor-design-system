@@ -1,0 +1,6 @@
+@use '../base/colors' as *;
+
+.page.grid {
+  .content-container { background: color(lime, 200); }
+  .content-section { background: color(lime, 300); }
+}

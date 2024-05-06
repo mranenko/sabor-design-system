@@ -42,6 +42,8 @@ const Nav = ({ className = '' }: NavProps) => {
           <NavLink to='/foundations/typography'>Typography</NavLink>
           <NavLink to='/foundations/iconography'>Iconography</NavLink>
           <NavLink to='/foundations/logos'>Logos</NavLink>
+          <NavLink to='/foundations/grid'>Grid</NavLink>
+          <NavLink to='/foundations/spacing'>Spacing</NavLink>
         </div>
 
         <div className='flex-column gap-05'>

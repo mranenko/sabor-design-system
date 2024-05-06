@@ -1,0 +1,24 @@
+@use '../base/breakpoints' as *;
+
+[class*='grid-'] {
+  display: grid;
+  grid-auto-flow: row;
+}
+
+@mixin grid-row {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+}
+
+.grid-row {
+  @include grid-row;
+}
+
+@each $breakpoint, $value in $breakpoints {
+  @include respond-to($breakpoint) {
+    .grid-row-#{$breakpoint} {
+      @include grid-row;
+    }
+  }
+}

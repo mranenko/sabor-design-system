@@ -2,6 +2,7 @@
 @use 'base/colors';
 @use 'base/fonts';
 @use 'base/global';
+@use 'base/grid';
 @use 'base/utilities';
 @use 'base/z-indices';
 
@@ -19,6 +20,8 @@
 @use 'pages/button' as pageButton;
 @use 'pages/card' as pageCard;
 @use 'pages/colors' as pageColors;
-@use 'pages/iconography';
-@use 'pages/logos';
-@use 'pages/typography';
+@use 'pages/grid' as pageGrid;
+@use 'pages/iconography' as pageIconography;
+@use 'pages/logos' as pageLogos;
+@use 'pages/spacing' as pageSpacing;
+@use 'pages/typography' as pageTypography;

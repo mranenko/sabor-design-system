@@ -5,12 +5,14 @@ import {
   ButtonPage,
   CardPage,
   ColorPage,
+  GridPage,
   FooterPage,
   HeaderPage,
   IconographyPage,
   InputPage,
   LogoPage,
   OverviewPage,
+  SpacingPage,
   TypographyPage,
 } from './pages'
 
@@ -24,8 +26,10 @@ function App() {
       <Route path='/components/header' element={<HeaderPage />} />
       <Route path='/components/input' element={<InputPage />} />
       <Route path='/foundations/color' element={<ColorPage />} />
+      <Route path='/foundations/grid' element={<GridPage />} />
       <Route path='/foundations/iconography' element={<IconographyPage />} />
       <Route path='/foundations/logos' element={<LogoPage />} />
+      <Route path='/foundations/spacing' element={<SpacingPage />} />
       <Route path='/foundations/typography' element={<TypographyPage />} />
       <Route path='*' element={<OverviewPage />} />
     </Routes>
