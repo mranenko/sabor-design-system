@@ -40,16 +40,16 @@ const TypographyPage = () => {
               <td className='strong'>title-1</td>
               <td className='color-subtle'>
                 font-family-playfair-display<br />
-                font-weight-semi-bold<br />
+                font-weight-semibold<br />
                 font-size-xxx-large<br />
-                leading-tight<br />
+                leading-x-tight<br />
                 tracking-normal
               </td>
               <td className='color-subtle'>
                 'Playfair Display', serif<br />
                 600 / semibold<br />
                 2rem / 32px<br />
-                1.25 / 125%<br />
+                1.125 / 112.5%<br />
                 0 / normal
               </td>
             </tr>
@@ -63,7 +63,7 @@ const TypographyPage = () => {
               <td className='strong'>title-2</td>
               <td className='color-subtle'>
                 font-family-playfair-display<br />
-                font-weight-semi-bold<br />
+                font-weight-semibold<br />
                 font-size-xx-large<br />
                 leading-tight<br />
                 tracking-wide
@@ -86,14 +86,14 @@ const TypographyPage = () => {
               <td className='strong'>title-3</td>
               <td className='color-subtle'>
                 font-family-playfair-display<br />
-                font-weight-semi-bold<br />
-                font-size-large<br />
-                leading-tighy<br />
+                font-weight-bold<br />
+                font-size-x-large<br />
+                leading-tight<br />
                 tracking-wide
               </td>
               <td className='color-subtle'>
                 'Playfair Display', serif<br />
-                600 / semibold<br />
+                700 / bold<br />
                 1.25rem / 20px<br />
                 1.25 / 125%<br />
                 .5px
@@ -109,14 +109,14 @@ const TypographyPage = () => {
               <td className='strong'>title-4</td>
               <td className='color-subtle'>
                 font-family-playfair-display<br />
-                font-weight-semi-bold<br />
-                font-size-regular<br />
+                font-weight-bold<br />
+                font-size-large<br />
                 leading-tight<br />
                 tracking-wide
               </td>
               <td className='color-subtle'>
                 'Playfair Display', serif<br />
-                600 / semibold<br />
+                700 / bold<br />
                 1rem / 16px<br />
                 1.25 / 125%<br />
                 .5px
@@ -130,15 +130,15 @@ const TypographyPage = () => {
               <td className='strong'>text</td>
               <td className='color-subtle'>
                 font-family-heebo<br />
-                font-weight-semi-bold<br />
-                font-size-regular<br />
+                font-weight-semibold<br />
+                font-size-large<br />
                 leading-normal<br />
                 tracking-wide
               </td>
               <td className='color-subtle'>
                 'Heebo', sans-serif<br />
                 400 / normal<br />
-                .875rem / 14px<br />
+                1rem / 16px<br />
                 1.5 / 150%<br />
                 .5px
               </td>
@@ -151,15 +151,15 @@ const TypographyPage = () => {
               <td className='strong'>strong-text</td>
               <td className='color-subtle'>
                 font-family-heebo<br />
-                font-weight-semi-bold<br />
-                font-size-regular<br />
+                font-weight-semibold<br />
+                font-size-large<br />
                 leading-normal<br />
                 tracking-wide
               </td>
               <td className='color-subtle'>
                 'Heebo', sans-serif<br />
                 600 / semibold<br />
-                .875rem / 14px<br />
+                1rem / 16px<br />
                 1.5 / 150%<br />
                 .5px
               </td>
@@ -172,7 +172,7 @@ const TypographyPage = () => {
               <td className='strong'>text</td>
               <td className='color-subtle'>
                 font-family-heebo<br />
-                font-weight-semi-bold<br />
+                font-weight-semibold<br />
                 font-size-regular<br />
                 leading-normal<br />
                 tracking-wide
@@ -193,7 +193,7 @@ const TypographyPage = () => {
               <td className='strong'>strong-text</td>
               <td className='color-subtle'>
                 font-family-heebo<br />
-                font-weight-semi-bold<br />
+                font-weight-semibold<br />
                 font-size-regular<br />
                 leading-normal<br />
                 tracking-wide
@@ -214,7 +214,7 @@ const TypographyPage = () => {
               <td className='strong'>small-text</td>
               <td className='color-subtle'>
                 font-family-heebo<br />
-                font-weight-semi-bold<br />
+                font-weight-semibold<br />
                 font-size-small<br />
                 leading-normal<br />
                 tracking-wide
@@ -235,7 +235,7 @@ const TypographyPage = () => {
               <td className='strong'>small-strong-text</td>
               <td className='color-subtle'>
                 font-family-heebo<br/>
-                font-weight-semi-bold<br />
+                font-weight-semibold<br />
                 font-size-small<br />
                 leading-normal<br />
                 tracking-wide

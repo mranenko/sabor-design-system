@@ -15,7 +15,7 @@ body,
 
 html {
   font: normal 16px sans-serif;
-  line-height: 1.5;
+  line-height: var(--leading-normal);
 }
 
 body {
@@ -27,7 +27,7 @@ body {
   font-size: var(--font-size-regular);
   font-weight: var(--font-weight-normal);
   justify-content: start;
-  letter-spacing: .5px;
+  letter-spacing: var(--tracking-wide);
 }
 
 a {
@@ -40,12 +40,24 @@ a {
 h1, h2, h3, h4, h5, h6, .title, .subtitle {
   font-family: var(--font-family-playfair-display);
   font-weight: var(--font-weight-bold);
-  line-height: 1.25;
+  line-height: var(--leading-tight);
 }
-h1, h2, .title, .subtitle { font-weight: var(--font-weight-semi-bold); }
-h1, .title { font-size: var(--font-size-xxx-large); letter-spacing: 0; }
-h2, .subtitle { font-size: var(--font-size-xx-large); }
+h1, h2, .title, .subtitle {
+  font-weight: var(--font-weight-semibold);
+}
+h1, .title {
+  font-size: var(--font-size-xxx-large);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--tracking-normal);
+  line-height: var(--leading-x-tight);
+}
+h2, .subtitle {
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-semibold);
+}
 h3 { font-size: var(--font-size-x-large); }
 h4, h5, h6 { font-size: var(--font-size-large); }
 
-strong, .strong { font-weight: 600; }
+strong, .strong {
+  font-weight: var(--font-weight-semibold);
+}
