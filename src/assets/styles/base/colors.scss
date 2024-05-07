@@ -22,8 +22,8 @@
   main colors and primitive color tokens (map)
 */
 
-$color-cocoa: #6d5e66;
-$color-lime: #2f732f;
+$color-cocoa: #62545c;
+$color-lime: #436d43;
 
 $colors: (
   main: (
@@ -89,7 +89,7 @@ $colors: map-merge($colors, (
     default: color(cocoa, 200),
     light: color(cocoa, 100),
   ),
-  border: color(cocoa, 400),
+  border: color(cocoa, 300),
   foreground: (
     dark: color(cocoa, 950),
     default: color(cocoa, 900),
