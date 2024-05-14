@@ -14,7 +14,7 @@ const LogoPage = () => {
         <Card>
           <h2 className='subtitle'>Sabor</h2>
           <div className='tiles logos'>
-            <div className='tile logo primary'>
+            <div className='tile logo dark'>
               <img
                 alt='Sabor Design System Logo'
                 className='logo'
@@ -26,11 +26,11 @@ const LogoPage = () => {
               <img
                 alt='Sabor Design System Logo'
                 className='logo'
-                src='/assets/images/logos/sabor-logo-primary.svg'
+                src='/assets/images/logos/sabor-logo-dark.svg'
               />
             </div>
 
-            <div className='tile logomark primary'>
+            <div className='tile logomark dark'>
               <img
                 alt='Sabor Design System Logomark'
                 className='logomark'
@@ -42,7 +42,7 @@ const LogoPage = () => {
               <img
                 alt='Sabor Design System Logomark'
                 className='logomark'
-                src='/assets/images/logos/sabor-logomark-primary.svg'
+                src='/assets/images/logos/sabor-logomark-dark.svg'
               />
             </div>
           </div>

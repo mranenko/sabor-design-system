@@ -117,7 +117,7 @@ const OverviewPage = () => {
               spirit and authentic flavors of Mexican cuisine. ¡Buen provecho!
             </p>
             <div className='tiles logos'>
-              <div className='tile logo primary'>
+              <div className='tile logo dark'>
                 <img
                   alt='Sabor Design System'
                   className='logo'
@@ -129,7 +129,7 @@ const OverviewPage = () => {
                 <img
                   alt='Sabor Design System'
                   className='logo'
-                  src='/assets/images/logos/sabor-logo-primary.svg'
+                  src='/assets/images/logos/sabor-logo-dark.svg'
                 />
               </div>
             </div>
