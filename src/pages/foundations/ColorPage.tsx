@@ -18,23 +18,24 @@ const ColorPage = () => {
         <Card>
           <h2 className='subtitle'>Main</h2>
           <div className='swatches'>
-            <div className='swatch cocoa wide'></div>
+            <div className='swatch cilantro wide'></div>
             <div className='swatch lime wide'></div>
+            <div className='swatch cocoa wide'></div>
           </div>
         </Card>
 
         <Card>
-          <h2 className='subtitle'>Cocoa</h2>
+          <h2 className='subtitle'>Cilantro</h2>
           <div className='swatches'>
-            <div className='swatch cocoa-100'></div>
-            <div className='swatch cocoa-200'></div>
-            <div className='swatch cocoa-300'></div>
-            <div className='swatch cocoa-400'></div>
-            <div className='swatch cocoa-500'></div>
-            <div className='swatch cocoa-600'></div>
-            <div className='swatch cocoa-700'></div>
-            <div className='swatch cocoa-800'></div>
-            <div className='swatch cocoa-900'></div>
+            <div className='swatch cilantro-100'></div>
+            <div className='swatch cilantro-200'></div>
+            <div className='swatch cilantro-300'></div>
+            <div className='swatch cilantro-400'></div>
+            <div className='swatch cilantro-500'></div>
+            <div className='swatch cilantro-600'></div>
+            <div className='swatch cilantro-700'></div>
+            <div className='swatch cilantro-800'></div>
+            <div className='swatch cilantro-900'></div>
           </div>
         </Card>
 
@@ -50,6 +51,21 @@ const ColorPage = () => {
             <div className='swatch lime-700'></div>
             <div className='swatch lime-800'></div>
             <div className='swatch lime-900'></div>
+          </div>
+        </Card>
+
+        <Card>
+          <h2 className='subtitle'>Cocoa</h2>
+          <div className='swatches'>
+            <div className='swatch cocoa-100'></div>
+            <div className='swatch cocoa-200'></div>
+            <div className='swatch cocoa-300'></div>
+            <div className='swatch cocoa-400'></div>
+            <div className='swatch cocoa-500'></div>
+            <div className='swatch cocoa-600'></div>
+            <div className='swatch cocoa-700'></div>
+            <div className='swatch cocoa-800'></div>
+            <div className='swatch cocoa-900'></div>
           </div>
         </Card>
       </section>

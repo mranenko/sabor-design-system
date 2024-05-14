@@ -3,7 +3,7 @@
 */
 
 @function contrast($color) {
-  @if (lightness($color) < 64) {
+  @if (lightness($color) < 50) {
     @return color(foreground, light);
   }
 
@@ -22,13 +22,27 @@
   main colors and primitive color tokens (map)
 */
 
-$color-cocoa: #62545c;
-$color-lime: #436d43;
+$color-cilantro: #436d43;
+$color-cocoa: #5c5057;
+$color-lime: #72c565;
 
 $colors: (
   main: (
+    cilantro: $color-cilantro,
     cocoa: $color-cocoa,
     lime: $color-lime,
+  ),
+
+    cilantro: (
+    100: tint($color-cilantro, 99.5%),
+    200: tint($color-cilantro, 92%),
+    300: tint($color-cilantro, 84%),
+    400: tint($color-cilantro, 76%),
+    500: tint($color-cilantro, 57%),
+    600: tint($color-cilantro, 38%),
+    700: tint($color-cilantro, 19%),
+    800: $color-cilantro,
+    900: shade($color-cilantro, 18%),
   ),
 
   cocoa: (
@@ -44,15 +58,15 @@ $colors: (
   ),
 
   lime: (
-    100: tint($color-lime, 99.5%),
-    200: tint($color-lime, 92%),
-    300: tint($color-lime, 84%),
-    400: tint($color-lime, 76%),
-    500: tint($color-lime, 57%),
-    600: tint($color-lime, 38%),
-    700: tint($color-lime, 19%),
-    800: $color-lime,
-    900: shade($color-lime, 18%),
+    100: tint($color-lime, 99.125%),
+    200: tint($color-lime, 90%),
+    300: tint($color-lime, 79%),
+    400: tint($color-lime, 67%),
+    500: tint($color-lime, 33%),
+    600: $color-lime,
+    700: shade($color-lime, 20%),
+    800: shade($color-lime, 36%),
+    900: shade($color-lime, 50%),
   ),
 );
 
@@ -64,8 +78,9 @@ $colors: (
   $value: $colors;
 
   @if length($keys)==1 {
-    @if nth($keys, 1) == cocoa { @return color(cocoa, 800); }
-    @else if nth($keys, 1) == lime { @return color(lime, 800); }
+    @if nth($keys, 1) == cilantro { @return color(cilantro, 800); }
+    @else if nth($keys, 1) == cocoa { @return color(cocoa, 800); }
+    @else if nth($keys, 1) == lime { @return color(lime, 600); }
   }
 
   @each $key in $keys {

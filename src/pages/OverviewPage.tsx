@@ -37,8 +37,9 @@ const OverviewPage = () => {
               artistry.
             </p>
             <div className='swatches'>
-              <div className='swatch cocoa wide'></div>
+              <div className='swatch cilantro wide'></div>
               <div className='swatch lime wide'></div>
+              <div className='swatch cocoa wide'></div>
             </div>
           </Card>
         </Link>

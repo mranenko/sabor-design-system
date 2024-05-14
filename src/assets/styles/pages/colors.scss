@@ -28,7 +28,7 @@
     content: '#{$background} #{$background-value}';
     left: 0;
     overflow: visible;
-    padding: 0 1rem;
+    padding: 0 .75rem;
     position: absolute;
     text-align: left;
     width: 100%;
@@ -37,6 +37,12 @@
 
 @each $name, $color in colors(main) {
   .swatch.#{'' + $name} {
+    @include swatch($name, $color);
+  }
+}
+
+@each $name, $color in colors(cilantro) {
+  .swatch.#{'cilantro-' + $name} {
     @include swatch($name, $color);
   }
 }
