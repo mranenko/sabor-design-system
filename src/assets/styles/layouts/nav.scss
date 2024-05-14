@@ -1,4 +1,5 @@
 @use '../base/breakpoints' as *;
+@use '../base/colors' as *;
 
 .nav {
   background: var(--color-primary);
@@ -12,13 +13,17 @@
   transition: left .5s;
   width: 16rem;
   z-index: var(--z-nav);
+  &.active { left: 0; }
 }
 
-.nav.active {
-   left: 0; 
+.nav a:not(.logo) {
+  margin: -.25rem -2rem;
+  padding: .5rem 2rem;
+  &:hover { background: color(cocoa, 900); }
+  &.active { border-right: .25rem solid color(lime); }
 }
 
-.nav .logo {
+.nav img.logo {
   display: block;
   height: auto;
   margin: 0 auto .51rem;

@@ -23,7 +23,7 @@ const Nav = ({ className = '' }: NavProps) => {
       <nav
         className={`nav flex-column gap-1 ${className} ${isActive ? 'active' : ''}`}
       >
-        <NavLink to='/'>
+        <NavLink className='logo' to='/'>
           <img
             alt='Sabor Design System'
             className='logo'
