@@ -6,6 +6,12 @@
 
 @font-face {
   font-family: 'Heebo';
+  src: url('../../assets/fonts/Heebo-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Heebo';
   src: url('../../assets/fonts/Heebo-SemiBold.ttf') format('truetype');
   font-weight: 600;
 }
@@ -34,6 +40,7 @@
   --font-size-xxx-large: 2rem;
 
   --font-weight-normal: 400;
+  --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
 

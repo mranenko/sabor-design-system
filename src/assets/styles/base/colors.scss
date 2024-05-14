@@ -22,9 +22,9 @@
   main colors and primitive color tokens (map)
 */
 
-$color-cilantro: #436d43;
+$color-cilantro: #467746;
 $color-cocoa: #5c5057;
-$color-lime: #72c565;
+$color-lime: #78c86c;
 
 $colors: (
   main: (
@@ -54,15 +54,15 @@ $colors: (
     600: tint($color-cocoa, 38%),
     700: tint($color-cocoa, 19%),
     800: $color-cocoa,
-    900: shade($color-cocoa, 18%),
+    900: shade($color-cocoa, 20%),
   ),
 
   lime: (
-    100: tint($color-lime, 99.125%),
-    200: tint($color-lime, 90%),
-    300: tint($color-lime, 79%),
-    400: tint($color-lime, 67%),
-    500: tint($color-lime, 33%),
+    100: tint($color-lime, 99%),
+    200: tint($color-lime, 89%),
+    300: tint($color-lime, 77%),
+    400: tint($color-lime, 65%),
+    500: tint($color-lime, 32%),
     600: $color-lime,
     700: shade($color-lime, 20%),
     800: shade($color-lime, 36%),
