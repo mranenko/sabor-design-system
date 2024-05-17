@@ -15,4 +15,15 @@ header,
   position: fixed;
   top: 0;
   width: 100%;
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.125rem;
+  }
+
+  .logo {
+    height: 2rem;
+    width: auto;
+  }
 }

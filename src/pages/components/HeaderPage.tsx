@@ -1,6 +1,9 @@
 import {
   Basket,
+  List,
+  User,
 } from '@phosphor-icons/react'
+import { NavLink } from 'react-router-dom'
 
 import { Button } from '../../components'
 import {
@@ -21,10 +24,25 @@ const HeaderPage = () => {
         </p>
 
         <Header className='relative'>
-          <span>Header</span>
-          <Button as='a' href='/review' variant='icon'>
-            <Basket />
-          </Button>
+          <NavLink className='logo' to='/'>
+            <img
+              alt='Sabor Design System'
+              className='logo'
+              src='/assets/images/logos/sabor-logo-light.svg'
+            />
+          </NavLink>
+
+          <div className="buttons">
+            <Button as='a' href='/' variant='icon'>
+              <User />
+            </Button>
+            <Button as='a' href='/' variant='icon'>
+              <Basket />
+            </Button>
+            <Button as='a' href='/' variant='icon'>
+              <List />
+            </Button>
+          </div>
         </Header>
       </section>
     </Page>
