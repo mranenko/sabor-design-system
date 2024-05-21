@@ -3,13 +3,10 @@
 @use 'base/fonts';
 @use 'base/global';
 @use 'base/grid';
+@use 'base/input';
+@use 'base/section';
 @use 'base/utilities';
 @use 'base/z-indices';
-
-@use 'components/common/button';
-@use 'components/common/card';
-@use 'components/common/input';
-@use 'components/common/section';
 
 @use 'layouts/header';
 @use 'layouts/footer';
