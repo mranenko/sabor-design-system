@@ -9,7 +9,7 @@ Inspired by the vibrant colors, flavors, and culture of Mexico, Sabor Design Sys
 
 ## Demo
 
-- **App:** [sabor-design-system.netlify.app](https://sabor-design-system.netlify.app)
+- **App preview:** [sabor-design-system.netlify.app](https://sabor-design-system.netlify.app)
 - **Design:** [dribbble.com/shots/24032364-Sabor-Design-System](https://dribbble.com/shots/24032364-Sabor-Design-System)
 - **Figma:** [www.figma.com/design/ItVWPaINnKdp0HxpxaEg0U/sabor-design-system-demo?node-id=413-1095&t=ZAjKQ4rpUzEAJbhN-1](https://www.figma.com/design/ItVWPaINnKdp0HxpxaEg0U/sabor-design-system-demo?node-id=413-1095&t=ZAjKQ4rpUzEAJbhN-1)
 
@@ -27,7 +27,7 @@ npm start
 
 Open your browser at [localhost:5301](http://localhost:5301)
 
-Note: This project was developed using node 22.2.0 and npm 10.7.0.
+Note: This project uses node 22.3.0 and npm 10.8.1.
 
 ---
 
