@@ -11,7 +11,7 @@ Inspired by the vibrant colors, flavors, and culture of Mexico, Sabor Design Sys
 
 - **App preview:** [sabor-design-system.netlify.app](https://sabor-design-system.netlify.app)
 - **Design:** [dribbble.com/shots/24032364-Sabor-Design-System](https://dribbble.com/shots/24032364-Sabor-Design-System)
-- **Figma:** [www.figma.com/design/ItVWPaINnKdp0HxpxaEg0U/sabor-design-system-demo?node-id=413-1095&t=ZAjKQ4rpUzEAJbhN-1](https://www.figma.com/design/ItVWPaINnKdp0HxpxaEg0U/sabor-design-system-demo?node-id=413-1095&t=ZAjKQ4rpUzEAJbhN-1)
+- **Figma:** [figma.com/design/ItVWPaINnKdp0HxpxaEg0U/sabor-design-system-demo](https://figma.com/design/ItVWPaINnKdp0HxpxaEg0U/sabor-design-system-demo)
 
 ---
 
