@@ -1,4 +1,4 @@
-<img src='src/assets/images/screenshots/sabor-cover.png' style='display: block; margin: 0 auto 1rem; max-width: 100%;'>
+<img src='/public/assets/images/screenshots/sabor-screenshot.png' style='width: 100%;'>
 
 # Sabor Design System
 
@@ -27,7 +27,7 @@ npm start
 
 Open your browser at [localhost:5301](http://localhost:5301)
 
-Note: This project uses node 22.3.0 and npm 10.8.1.
+Note: This project uses node 22.5.1 and npm 10.8.2.
 
 ---
 
